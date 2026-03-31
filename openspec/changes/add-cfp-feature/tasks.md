@@ -8,14 +8,14 @@
 
 ## 2. Frontend Implementation (Angular 21)
 
-- [ ] 2.1 Generate the `CfpSubmissionComponent` as a standalone component in the `frontend` app.
-- [ ] 2.2 Define signals for the form's data (`name`, `email`, `talkTitle`, `isGDE`) and the `submissionStatus`.
-- [ ] 2.3 Create the HTML template using semantic tags and WAI-ARIA attributes (`aria-label`, `role="alert"`).
-- [ ] 2.4 Implement the submission logic using `HttpClient` to communicate with the API.
-- [ ] 2.5 Write Jest unit tests to validate the initial state of the signals and ensure the submit button is blocked while `submissionStatus` is `'loading'`.
+- [x] 2.1 Generate the `CfpSubmissionComponent` as a standalone component in the `frontend` app.
+- [x] 2.2 Define signals for the form's data (`name`, `email`, `talkTitle`, `isGDE`) and the `submissionStatus`.
+- [x] 2.3 Create the HTML template using semantic tags and WAI-ARIA attributes (`aria-label`, `role="alert"`).
+- [x] 2.4 Implement the submission logic using `HttpClient` to communicate with the API.
+- [x] 2.5 Write Jest unit tests to validate the initial state of the signals and ensure the submit button is blocked while `submissionStatus` is `'loading'`.
 
 ## 3. Integration and Verification
 
-- [ ] 3.1 Verify that the frontend correctly consumes the `SpeakerDTO` contract.
-- [ ] 3.2 Ensure proper error handling between the API and the UI.
-- [ ] 3.3 Perform a final check of all WAI-ARIA roles for accessibility compliance.
+- [x] 3.1 Verify that the frontend correctly consumes the `SpeakerDTO` contract.
+- [x] 3.2 Ensure proper error handling between the API and the UI.
+- [x] 3.3 Perform a final check of all WAI-ARIA roles for accessibility compliance.
