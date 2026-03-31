@@ -1,10 +1,10 @@
 ## 1. Backend Implementation (NestJS)
 
-- [ ] 1.1 Create `CreateSpeakerDto` in `api/src/app` by extending/mapping from the shared `SpeakerDTO`.
-- [ ] 1.2 Add `class-validator` and `class-transformer` decorators to `CreateSpeakerDto` (e.g., `@IsEmail`, `@IsNotEmpty`).
-- [ ] 1.3 Implement `SpeakerController` with a `POST` method that uses `@Body()` and triggers validation.
-- [ ] 1.4 Implement `SpeakerService` to handle business logic and in-memory persistence.
-- [ ] 1.5 Write Jest unit tests for `SpeakerController` specifically verifying that invalid payloads result in a `400 Bad Request`.
+- [x] 1.1 Create `CreateSpeakerDto` in `api/src/app` by extending/mapping from the shared `SpeakerDTO`.
+- [x] 1.2 Add `class-validator` and `class-transformer` decorators to `CreateSpeakerDto` (e.g., `@IsEmail`, `@IsNotEmpty`).
+- [x] 1.3 Implement `SpeakerController` with a `POST` method that uses `@Body()` and triggers validation.
+- [x] 1.4 Implement `SpeakerService` to handle business logic and in-memory persistence.
+- [x] 1.5 Write Jest unit tests for `SpeakerController` specifically verifying that invalid payloads result in a `400 Bad Request`.
 
 ## 2. Frontend Implementation (Angular 21)
 
