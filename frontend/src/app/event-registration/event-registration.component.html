@@ -1,0 +1,88 @@
+<div class="cfp-container">
+  <section class="glass-card">
+    <h1 id="event-title">Cadastro de Local do Evento</h1>
+    <p class="subtitle">Insira as informações do local onde ocorrerá o evento.</p>
+
+    <form [formGroup]="eventForm" (ngSubmit)="submit()" aria-labelledby="event-title" class="cfp-form">
+      <!-- Nome Field -->
+      <div class="form-group">
+        <label for="nome">Nome do Local</label>
+        <input
+          type="text"
+          id="nome"
+          formControlName="nome"
+          placeholder="Centro de Convenções"
+          [disabled]="submissionStatus() === 'loading'"
+        />
+      </div>
+
+      <!-- Endereço Field -->
+      <div class="form-group">
+        <label for="endereço">Endereço</label>
+        <input
+          type="text"
+          id="endereço"
+          formControlName="endereço"
+          placeholder="Av. Paulista, 1000"
+          [disabled]="submissionStatus() === 'loading'"
+        />
+      </div>
+
+      <!-- Capacidade Field -->
+      <div class="form-group">
+        <label for="capacidade">Capacidade Máxima</label>
+        <input
+          type="number"
+          id="capacidade"
+          formControlName="capacidade"
+          placeholder="1000"
+          [disabled]="submissionStatus() === 'loading'"
+        />
+      </div>
+
+      <!-- Data Field -->
+      <div class="form-group">
+        <label for="data">Data do Evento</label>
+        <input
+          type="date"
+          id="data"
+          formControlName="data"
+          [disabled]="submissionStatus() === 'loading'"
+        />
+      </div>
+
+      <!-- Submit Button -->
+      <div class="form-actions">
+        <button
+          type="submit"
+          class="submit-btn"
+          [disabled]="eventForm.invalid || submissionStatus() === 'loading'"
+        >
+          @if (submissionStatus() !== "loading") {
+            <span>Cadastrar Evento</span>
+          } @else {
+            <span class="spinner">Cadastrando...</span>
+          }
+        </button>
+
+        <a routerLink="/dashboard" class="dashboard-link">
+          Ver Dashboard
+        </a>
+      </div>
+
+      <!-- Feedback Messages -->
+      <div role="alert" aria-live="polite" class="feedback">
+        @if (submissionStatus() === "success") {
+          <p class="success-msg">
+            ✓ Evento cadastrado com sucesso!
+          </p>
+        }
+        @if (submissionStatus() === "error") {
+          <p class="error-msg">
+            ⚠ {{ errorMessage() }}
+          </p>
+        }
+      </div>
+    </form>
+  </section>
+</div>
