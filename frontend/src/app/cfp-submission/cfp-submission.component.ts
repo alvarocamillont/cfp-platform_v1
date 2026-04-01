@@ -2,6 +2,7 @@ import { Component, signal, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 import { SpeakerDTO } from '@cfp-platform/shared-types';
 
 export type SubmissionStatus = 'idle' | 'loading' | 'success' | 'error';
@@ -9,7 +10,7 @@ export type SubmissionStatus = 'idle' | 'loading' | 'success' | 'error';
 @Component({
   selector: 'app-cfp-submission',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterModule],
   templateUrl: './cfp-submission.component.html',
   styleUrl: './cfp-submission.component.css',
 })

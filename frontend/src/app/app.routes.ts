@@ -9,6 +9,13 @@ export const appRoutes: Route[] = [
       ),
   },
   {
+    path: 'dashboard',
+    loadComponent: () =>
+      import('./cfp-dashboard/cfp-dashboard.component').then(
+        (m) => m.CfpDashboardComponent
+      ),
+  },
+  {
     path: '',
     redirectTo: 'submit-talk',
     pathMatch: 'full',

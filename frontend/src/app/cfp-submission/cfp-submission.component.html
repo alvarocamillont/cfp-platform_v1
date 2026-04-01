@@ -62,17 +62,23 @@
       </div>
 
       <!-- Submit Button -->
-      <button 
-        type="submit" 
-        class="submit-btn" 
-        [disabled]="submissionStatus() === 'loading'"
-      >
-        @if (submissionStatus() !== "loading") {
-          <span>Submit Proposal</span>
-        } @else {
-          <span class="spinner">Submitting...</span>
-        }
-      </button>
+      <div class="form-actions">
+        <button 
+          type="submit" 
+          class="submit-btn" 
+          [disabled]="submissionStatus() === 'loading'"
+        >
+          @if (submissionStatus() !== "loading") {
+            <span>Submit Proposal</span>
+          } @else {
+            <span class="spinner">Submitting...</span>
+          }
+        </button>
+
+        <a routerLink="/dashboard" class="dashboard-link">
+          View Dashboard
+        </a>
+      </div>
 
       <!-- Feedback Messages -->
       <div role="alert" aria-live="polite" class="feedback">
