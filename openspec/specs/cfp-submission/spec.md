@@ -36,3 +36,11 @@ The UI MUST be navigable and understandable for assistive technology users.
 - **WHEN** the form is rendered
 - **THEN** all input fields MUST have associated `<label>` elements or `aria-label` attributes.
 - **THEN** any error messages MUST be contained within an element with `role="alert"` or `aria-live="polite"`.
+
+### Requirement: Dashboard Navigation 
+The submission form MUST provide a clear navigation path to the dashboard view.
+
+#### Scenario: Navigating to Dashboard
+- **WHEN** the `CfpSubmissionComponent` is rendered
+- **THEN** it SHALL display a "View Dashboard" button or link
+- **THEN** clicking the button SHALL trigger a route change to the `/dashboard` path
