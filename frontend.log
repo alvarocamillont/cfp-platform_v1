@@ -1,0 +1,29 @@
+
+ NX   Running target serve for project frontend and 3 tasks it depends on:
+
+
+
+> nx run shared-types:build  [existing outputs match the cache, left as is]
+
+
+> nx run api:build  [local cache]
+
+Waiting for api:serve:development in another nx process
+
+> nx run frontend:serve:development
+
+[33m❯[39m Building...
+[32m✔[39m Building...
+[37m[1mInitial chunk files[22m[2m | [22m[1mNames[22m                       [2m | [22m [1mRaw size[22m
+[32mmain.js[37m            [2m | [22m[2mmain[22m                        [2m | [22m  [36m5.68 kB[37m[2m | [22m
+[32mstyles.css[37m         [2m | [22m[2mstyles[22m                      [2m | [22m[36m104 bytes[37m[2m | [22m
+[1m [22m                  [2m | [22m[1mInitial total[22m               [2m | [22m  [1m5.79 kB[22m
+[1mLazy chunk files[22m   [2m | [22m[1mNames[22m                       [2m | [22m [1mRaw size[22m
+[32mchunk-FPD3EQGN.js[37m  [2m | [22m[2mevent-registration-component[22m[2m | [22m [36m23.64 kB[37m[2m | [22m
+[32mchunk-IWUCJYQE.js[37m  [2m | [22m[2mcfp-submission-component[22m    [2m | [22m [36m21.94 kB[37m[2m | [22m
+[32mchunk-L6XDVQRF.js[37m  [2m | [22m[2mcfp-dashboard-component[22m     [2m | [22m [36m18.19 kB[37m[2m | [22m
+Application bundle generation complete. [3.447 seconds] - 2026-04-02T02:18:26.469Z
+[39m
+[37mWatch mode enabled. Watching for file changes...[39m
+[37mNOTE: Raw file sizes do not reflect development server per-request transformations.[39m
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m

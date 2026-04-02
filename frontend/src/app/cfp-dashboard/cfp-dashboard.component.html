@@ -17,7 +17,7 @@
     } @else if (submissions().length === 0) {
       <div class="status-box">
         <p>No submissions found. Be the first to submit a talk!</p>
-        <a routerLink="/submit-talk" class="btn btn-primary">Submit a Talk</a>
+        <a routerLink="/talks/new" class="btn btn-primary">Submit a Talk</a>
       </div>
     } @else {
       <div class="table-container" role="region" aria-label="Submitted talks">
@@ -50,7 +50,7 @@
       </div>
       
       <div class="actions">
-        <a routerLink="/submit-talk" class="btn btn-secondary">Back to Submission</a>
+        <a routerLink="/talks/new" class="btn btn-secondary">Back to Submission</a>
       </div>
     }
   </div>
