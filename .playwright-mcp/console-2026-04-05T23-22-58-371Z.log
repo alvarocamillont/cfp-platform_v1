@@ -1,0 +1,257 @@
+[      83ms] [LOG] Angular is running in development mode. @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/chunk-IUBWJNQB.js?v=6424db7f:17225
+[    5617ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[    5617ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[    5617ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[    5617ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17258ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17258ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17258ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17259ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17261ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17261ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17261ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[   17261ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[  729121ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[  729121ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[  729121ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
+[  729121ms] [WARNING] 
+  It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+  when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+  you. We recommend using this approach to avoid 'changed after checked' errors.
+
+  Example:
+  // Specify the `disabled` property at control creation time:
+  form = new FormGroup({
+    first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+    last: new FormControl('Drew', Validators.required)
+  });
+
+  // Controls can also be enabled/disabled after creation:
+  form.get('first')?.enable();
+  form.get('last')?.disable();
+ @ http://localhost:4200/@fs/Users/alvarocamilloneto/dev/aulas/cfp-platform_v1/.angular/cache/21.2.5/frontend/vite/deps/@angular_forms.js?v=7d7641c7:3485
