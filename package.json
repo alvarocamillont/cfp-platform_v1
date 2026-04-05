@@ -42,6 +42,7 @@
     "esbuild": "^0.19.2",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
+    "eslint-plugin-cypress": "^3.5.0",
     "eslint-plugin-playwright": "^1.6.2",
     "jest": "^30.0.2",
     "jest-environment-node": "^30.0.2",
